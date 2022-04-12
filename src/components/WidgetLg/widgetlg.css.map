@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,IAAI,EAAE,CAAC;EACP,UAAU,EAAE,GAAG,CAAC,GAAG,CAAC,IAAI,CAAE,KAAI,CAAC,mBAAkB;EACjD,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "widgetlg.scss"
+    ],
+    "names": [],
+    "file": "widgetlg.css"
+}
