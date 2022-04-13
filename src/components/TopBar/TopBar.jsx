@@ -3,6 +3,7 @@ import './topbar.css';
 import {MdOutlineLanguage} from 'react-icons/md';
 import{AiFillSetting} from 'react-icons/ai';
 import {IoIosNotifications} from 'react-icons/io'
+import Avatar from '../../assets/avatar.png'
 const TopBar = () => {
 
     return (
@@ -27,7 +28,7 @@ const TopBar = () => {
                         <AiFillSetting className='topbarIcons'/>
                         <span className='topIconBadge'>2</span>
                     </div>
-                    <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" className='topAvatar' alt="Avatar" />
+                    <img src={Avatar} className='topAvatar' alt="Avatar" />
                 </div>
             </div>
         </div>

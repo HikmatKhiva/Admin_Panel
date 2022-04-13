@@ -5,6 +5,7 @@
     position: sticky;
     top: 0;
     z-index: 9999;
+    border-bottom: 1px solid rgb(195, 195, 195);
 }
 .topbarWrapper {
     height: 100%;
@@ -45,12 +46,12 @@
 
 }
 .topbarIconContainer > svg {
-    width: 40px !important;
-    height: 40px !important;
+    width: 30px ;
+    height: 30px ;
 }
 .topAvatar {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     cursor: pointer;
 }
