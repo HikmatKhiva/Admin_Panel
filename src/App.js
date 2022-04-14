@@ -4,6 +4,7 @@ import TopBar from "./components/TopBar/TopBar";
 import Home from "./Pages/Home/Home";
 import UserList from './Pages/UserList/UserList'
 import User from "./Pages/User/User";
+import NewUser from './Pages/NewUser/NewUser'
 import './style.css';
 import { Routes,  Route} from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
          <Route path="/" element={<Home />} /> 
          <Route path="/users" element={<UserList />} /> 
          <Route path="/users/:userId" element={<User />} /> 
+         <Route path="/newUser" element={<NewUser />} /> 
         </Routes>
       </div>
     </div>

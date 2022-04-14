@@ -2,13 +2,15 @@ import React from 'react';
 import './user.css';
 import { MdPermIdentity, MdPhoneAndroid, MdLocationSearching,MdPublish } from 'react-icons/md';
 import { AiOutlineCalendar, AiOutlineMail } from 'react-icons/ai';
-
+import { Link } from 'react-router-dom';
 const User = () => {
     return (
         <div className='user'>
             <div className="userTitleContainer">
                 <h1 className='UserTitle'>Edit User</h1>
-                <button className="userAddButton">Create</button>
+                <Link to='/newUser'>
+                    <button className="userAddButton">Create</button>
+                </Link>
             </div>
             <div className="userContainer">
                 <div className="userShow">
@@ -65,7 +67,7 @@ const User = () => {
                                 <input type="text" placeholder='+99****' className='userUpdateInput' />
                             </div>
                             <div className="userUpdateItem">
-                                <label>Adress</label>
+                                <label>Address</label>
                                 <input type="text" placeholder='New York | USA' className='userUpdateInput' />
                             </div>
                         </div>
