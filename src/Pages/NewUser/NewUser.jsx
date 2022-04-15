@@ -47,6 +47,7 @@ const NewUser = () => {
                         <option value="np">No</option>
                     </select>
                 </div>
+                <button className="newUserButton">Create</button>
             </form>
         </div>
     )

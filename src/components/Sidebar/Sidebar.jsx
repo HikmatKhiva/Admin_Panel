@@ -43,15 +43,15 @@ const Sidebar = () => {
                     <ul className="sidebarList">
                         <li className="sidebarListItem ">
                             <Link to='/users'>
-                                {/* Line Style Here Icon  sidebarIcon */}
                                 <BiUser className='sidebarIcon' />
                                 User
                             </Link>
                         </li>
                         <li className="sidebarListItem">
-                            {/* Time Line Here Icon  sidebarIcon*/}
-                            <FaProductHunt className='sidebarIcon' />
-                            Products
+                            <Link to='/products'>
+                                <FaProductHunt className='sidebarIcon' />
+                                Products
+                            </Link>
                         </li>
                         <li className="sidebarListItem ">
                             {/* Trending Up Here Icon sidebarIcon */}

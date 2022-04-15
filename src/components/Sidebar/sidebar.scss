@@ -1,6 +1,6 @@
 .sidebar {
     flex: 1;
-    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
     background-color: rgb(240, 240, 243);
     position: sticky;
     top: 50px;
