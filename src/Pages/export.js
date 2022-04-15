@@ -4,4 +4,4 @@ export {default as User} from './User/User';
 export {default as NewUser} from './NewUser/NewUser';
 export {default as ProductList} from './ProductList/ProductList';
 export {default as Product} from './Product/Product';
-export {default as newProduct} from './newProduct/newProduct'
+export {default as ProductNew} from './ProductNew/ProductNew'
