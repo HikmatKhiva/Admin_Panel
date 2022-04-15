@@ -2,7 +2,7 @@ import React from 'react';
 import './product.css';
 import { Link } from 'react-router-dom';
 import Chart from '../../components/Chart/Chart';
-import {MdPublish} from 'react-icons/md';
+import { MdPublish } from 'react-icons/md';
 import { productData } from '../../Data';
 const Product = () => {
     return (
@@ -62,9 +62,9 @@ const Product = () => {
                         <div className="productUpload">
                             <img src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="productUploadImg" />
                             <label htmlFor="file">
-                                <MdPublish className='productIcon'/>
+                                <MdPublish className='productIcon' />
                             </label>
-                            <input type="file" id='file' style={{display:'none'}} />
+                            <input type="file" id='file' style={{ display: 'none' }} />
                         </div>
                         <button className="productButton">Update</button>
                     </div>

@@ -19,8 +19,8 @@ const Sidebar = () => {
                 <div className="sidebarMenu">
                     <h3 className="sidebarTitle">Dashboard</h3>
                     <ul className="sidebarList">
-                        <li className="sidebarListItem active">
-                            <Link to='/'>
+                        <li className="sidebarListItem">
+                            <Link to='/' className='active'>
                                 {/* Line Style Here Icon  sidebarIcon */}
                                 <AiFillHome className='sidebarIcon' />
                                 Home
@@ -32,7 +32,6 @@ const Sidebar = () => {
                             Analytics
                         </li>
                         <li className="sidebarListItem ">
-                            {/* Trending Up Here Icon sidebarIcon */}
                             <BiTrendingUp className='sidebarIcon' />
                             Sales
                         </li>
@@ -54,12 +53,10 @@ const Sidebar = () => {
                             </Link>
                         </li>
                         <li className="sidebarListItem ">
-                            {/* Trending Up Here Icon sidebarIcon */}
                             <GrTransaction className='sidebarIcon' />
                             Transactions
                         </li>
                         <li className="sidebarListItem ">
-                            {/* Trending Up Here Icon sidebarIcon */}
                             <GoReport className='sidebarIcon' />
                             Reports
                         </li>
@@ -74,12 +71,10 @@ const Sidebar = () => {
                             Mail
                         </li>
                         <li className="sidebarListItem">
-                            {/* Time Line Here Icon  sidebarIcon*/}
                             <VscFeedback className='sidebarIcon' />
                             Feedback
                         </li>
                         <li className="sidebarListItem ">
-                            {/* Trending Up Here Icon sidebarIcon */}
                             <FiMessageSquare className='sidebarIcon' />
                             Messages
                         </li>
@@ -94,12 +89,10 @@ const Sidebar = () => {
                             Manage
                         </li>
                         <li className="sidebarListItem">
-                            {/* Time Line Here Icon  sidebarIcon*/}
                             <IoMdAnalytics className='sidebarIcon' />
                             Analytics
                         </li>
                         <li className="sidebarListItem ">
-                            {/* Trending Up Here Icon sidebarIcon */}
                             <VscReport className='sidebarIcon' />
                             Reports
                         </li>

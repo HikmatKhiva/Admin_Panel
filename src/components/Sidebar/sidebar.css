@@ -46,7 +46,12 @@
   color: #555;
 }
 
-.sidebarListItem.active, .sidebarListItem:hover {
+.sidebarListItem a.active {
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.sidebarListItem a.active, .sidebarListItem:hover {
   background-color: #dddde7;
 }
 

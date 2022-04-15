@@ -33,7 +33,11 @@
     text-decoration: none;
     color: #555;
 }
-.sidebarListItem.active, .sidebarListItem:hover {
+.sidebarListItem a.active {
+    border-radius: 10px;
+    padding: 3px;
+}
+.sidebarListItem a.active, .sidebarListItem:hover {
     background-color: rgb(221, 221, 231);
 }
 .sidebarIcon {
